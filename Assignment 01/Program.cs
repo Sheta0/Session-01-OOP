@@ -133,17 +133,12 @@ namespace Assignment_01
             //    EmpArr[1] = new Employee(2, "Ali", SecurityLevel.Guest, 11_000, new HiringDate(1, 3, 2020), Gender.M);
             //    EmpArr[2] = new Employee(3, "Haerin", (SecurityLevel)15, 19_000, new HiringDate(5, 7, 2019), Gender.F);
 
-            //    int boxingCount = 0;
-            //    int unboxingCount = 0;
-
             //    int CompareEmployeesByHireDate(Employee x, Employee y)
             //    {
-            //        boxingCount += 2; // Boxing occurs when accessing x.HireDate and y.HireDate
             //        int result = DateTime.Compare(
             //            new DateTime(x.HireDate.Year, x.HireDate.Month, x.HireDate.Day),
             //            new DateTime(y.HireDate.Year, y.HireDate.Month, y.HireDate.Day)
             //        );
-            //        unboxingCount += 2; // Unboxing occurs when comparing the DateTime values
             //        return result;
             //    }
 
@@ -155,15 +150,14 @@ namespace Assignment_01
             //        Console.WriteLine("================================");
             //    }
 
-            //    Console.WriteLine($"Boxing operations: {boxingCount}");
-            //    Console.WriteLine($"Unboxing operations: {unboxingCount}");
+            //    Console.WriteLine("HiringDate is a class so there is no boxing or unboxing when accessing the properties");
             //}
             //catch (Exception E)
             //{
             //    Console.WriteLine(E.Message);
             //}
-
+            
             #endregion
-        }
+}
     }
 }
